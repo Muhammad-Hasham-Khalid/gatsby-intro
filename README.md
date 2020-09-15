@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -31,7 +31,7 @@ We recommend getting the [code running on your computer](#getting-course-code-ru
 You can jump into the CodeSandbox for each branch without having to get the code running on your computer. Keep in mind, that if you want to modify the code, you'll need to create a CodeSandbox free account to fork a new sandbox and save it to your CodeSandbox account.
 
 - [Course Starter](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/master/)
-- [Step 0: Pages & Links](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step0/pages-and-links) 
+- [Step 0: Pages & Links](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step0/pages-and-links)
 - [Step 1: Styles](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step1/styles)
 - [Step 2: GraphQL & SEO](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step2/graphql-and-seo)
 - [Step 3: MDX](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step3/mdx)
@@ -58,7 +58,7 @@ Refer to the Course Errata below if you are running into issues.
 1. Have a text editor installed, i.e. [VSCode](https://code.visualstudio.com/)
 2. Have the Gatsby CLI (gatsby-cli) installed globally by running:
    `npm install -g gatsby-cli`
-   
+
 ## Course Errata
 
 ### Video: [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) video at 1 minute, 32 seconds where Jason installs the Gatsby MDX plugin.
@@ -96,7 +96,7 @@ View the `step6/blog-images` branch for final code for the section.
 
 #### gatsby-plugin-mdx no longer requires `body` to be nested in `code` in the query
 
-in ```post.js``` the query should be
+in `post.js` the query should be
 
 ```javascript
 export const query = graphql`
@@ -109,10 +109,10 @@ export const query = graphql`
       body
     }
   }
-`
+`;
 ```
 
-Instead of 
+Instead of
 
 ```javascript
 export const query = graphql`
